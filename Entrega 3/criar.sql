@@ -115,7 +115,7 @@ CREATE TABLE IF NOT EXISTS "Jogo" (
 	"titulo"	TEXT NOT NULL,
 	"dalaLancamento"	TEXT,
 	"preco"	REAL CHECK("preco" >= 0),
-	"genero"	REAL CHECK("genero" = 'ACAO' OR "genero" = 'FPS' OR "genero" = 'MULTIPLAYER' OR "genero" = 'TERROR' OR "genero" = 'RPG' OR "genero" = 'CORIDAS' OR "genero" = 'ESTRATEGIA' OR "genero" = 'CASUAL' OR "genero" = 'ESPORT' OR "genero" = 'INDIE' OR "genero" = 'SIMULADOR'),
+	"genero"	REAL CHECK("genero" = 'ACAO' OR "genero" = 'FPS' OR "genero" = 'MULTIPLAYER' OR "genero" = 'TERROR' OR "genero" = 'RPG' OR "genero" = 'CORRIDAS' OR "genero" = 'ESTRATEGIA' OR "genero" = 'CASUAL' OR "genero" = 'ESPORT' OR "genero" = 'INDIE' OR "genero" = 'SIMULADOR'),
 	"idioma"	TEXT,
 	"rating"	REAL CHECK("rating" >= 0 AND "rating" <= 5),
 	"critica"	TEXT,

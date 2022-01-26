@@ -1,83 +1,124 @@
 BEGIN TRANSACTION;
-INSERT INTO "Pessoa" VALUES (1,'nome1','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (2,'nome2','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (3,'nome3','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (4,'nome4','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (5,'nome5','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (6,'nome6','0001-01-01',123123123,'email1@email.com');
-INSERT INTO "Pessoa" VALUES (7,'nome7','0001-01-01',123123123,'email1@email.com');
+INSERT INTO "Pessoa" VALUES (1,'Fernando Pessoa','1988-06-13',912885499,'chullo@nonise.com'),
+INSERT INTO "Pessoa" VALUES (2,'Álvaro de Campos','1997-08-24',919585607,'dalebuck@eelrcbl.com'),
+INSERT INTO "Pessoa" VALUES (3,'Alberto Caeiro','2000-01-01',913885884,'mashrafgull@ttlrlie.com'),
+INSERT INTO "Pessoa" VALUES (4,'Ricardo Reis','1979-04-08',939956247,'jeka7826@supo.site'),
+INSERT INTO "Pessoa" VALUES (5,'Bernardo Soares','2002-04-11',923684774,'lanowalker@debb.me'),
+INSERT INTO "Pessoa" VALUES (6,'Alexander Search','1969-04-20',912559570,'dawnwest@gmailni.com'),
+INSERT INTO "Pessoa" VALUES (7,'Charles Robert Anon','1995-05-04',923670412,'meerkatt@eeetivsc.com'),
+INSERT INTO "Pessoa" VALUES (8,'Jean Seul','1997-05-14',938820065,'buddha77@cleverr.site'),
+INSERT INTO "Pessoa" VALUES (9,'Maria José','1989-06-20',911181580,'yuldawidowa@pdfik.site'),
+INSERT INTO "Pessoa" VALUES (10,'António Mora','2000-07-16',925616389,'hobshack@eelrcbl.com'),
+INSERT INTO "Pessoa" VALUES (11,'Vicente Guedes','1975-07-24',934391464,'mdweaver@oygkt.com'),
+INSERT INTO "Pessoa" VALUES (12,'Raphael Baldaya','2002-11-27',968454055,'ljdmillaromanova0@yandex.cfd'),
+INSERT INTO "Pessoa" VALUES (13,'Bruno de Carvalho','1972-02-08',960900051,'xyz@xyz.agency'),
 INSERT INTO "Pessoa" VALUES (999999999,'','',NULL,NULL);
-INSERT INTO "ClientePremium" VALUES (1,'1000-01-01');
-INSERT INTO "ClientePremium" VALUES (2,'1000-01-01');
-INSERT INTO "Morada" VALUES (1,'rua1',4401,'cidade1','Portugal');
-INSERT INTO "Morada" VALUES (2,'rua2',4402,'cidade2','Portugal');
-INSERT INTO "Morada" VALUES (3,'rua3',4403,'cidade3','Portugal');
-INSERT INTO "Morada" VALUES (4,'rua4',4404,'cidade4','Portugal');
-INSERT INTO "Morada" VALUES (5,'rua5',4405,'cidade5','Portugal');
-INSERT INTO "Morada" VALUES (6,'rua6',4406,'cidade6','Portugal');
-INSERT INTO "Morada" VALUES (7,'rua7',4407,'cidade7','Portugal');
-INSERT INTO "Morada" VALUES (8,'rua8',4408,'cidade8','Portugal');
-INSERT INTO "Morada" VALUES (9,'rua9',4409,'cidade9','Portugal');
-INSERT INTO "Morada" VALUES (10,'rua10',4410,'cidade10','Portugal');
-INSERT INTO "Funcionario" VALUES (4,1200.0,'1000-01-25');
-INSERT INTO "Funcionario" VALUES (5,1200.0,'1000-01-09');
-INSERT INTO "Funcionario" VALUES (6,1200.0,'1000-01-05');
-INSERT INTO "Loja" VALUES (1,'epica loja',912121291,'shop@epica.com',4,10);
-INSERT INTO "Loja" VALUES (2,'not so epic shop',123123123,'mehshop@epic.com',5,9);
-INSERT INTO "LojaFuncionario" VALUES (4,1);
-INSERT INTO "LojaFuncionario" VALUES (5,2);
-INSERT INTO "Editor" VALUES (1,'buggysoft',20);
-INSERT INTO "Editor" VALUES (2,'activeblind',30);
-INSERT INTO "Editor" VALUES (3,'diskprojectblue',5);
-INSERT INTO "Editor" VALUES (4,'ea dlc',60);
-INSERT INTO "Horario" VALUES (1,'SEGUNDA-FEIRA',9,17);
-INSERT INTO "Horario" VALUES (2,'TERCA-FEIRA',9,17);
-INSERT INTO "Horario" VALUES (3,'QUARTA-FEIRA',9,17);
-INSERT INTO "Horario" VALUES (4,'QUINTA-FEIRA',9,17);
-INSERT INTO "Horario" VALUES (5,'SEXTA-FEIRA',9,17);
+INSERT INTO "ClientePremium" VALUES (1,'1993-10-28'),
+INSERT INTO "ClientePremium" VALUES (2,'2001-03-10');
+INSERT INTO "Morada" VALUES (1,'Rua Doutor Roberto Frias','4200-465','Porto','Portugal'),
+INSERT INTO "Morada" VALUES (2,'Avenida dos Aliados','4000-064','Porto','Portugal'),
+INSERT INTO "Morada" VALUES (3,'Rua Heróis de França','4450-156','Porto','Portugal'),
+INSERT INTO "Morada" VALUES (4,'Avenida dos Donuts','4404-080','Gaia','Portugal'),
+INSERT INTO "Morada" VALUES (5,'Travessa Irmãzinha dos Pobres','1020-147','Lisboa','Portugal'),
+INSERT INTO "Morada" VALUES (6,'Bairro dos Congregados','4710-427','Braga','Portugal'),
+INSERT INTO "Morada" VALUES (7,'Rua Dom Afonso Henriques','4700-030','Braga','Portugal'),
+INSERT INTO "Morada" VALUES (8,'Rua Miguel Bombarda','3810-134','Aveiro','Portugal'),
+INSERT INTO "Morada" VALUES (9,'Rua General Ferreira Martins','1405-137','Lisboa','Portugal'),
+INSERT INTO "Morada" VALUES (10,'Rua Doutor Orlando Oliveira','3800-008','Aveiro','Portugal');
+INSERT INTO "Funcionario" VALUES (4,1200.0,'2010-12-14'),
+INSERT INTO "Funcionario" VALUES (5,1200.0,'2013-07-29'),
+INSERT INTO "Funcionario" VALUES (6,1200.0,'2015-08-15');
+INSERT INTO "Loja" VALUES (1,'4450 store',912121291,'shop4450@epic.com',4,10),
+INSERT INTO "Loja" VALUES (2,'aguas santas epic store',123123123,'meilao@epic.com',5,9);
+INSERT INTO "LojaFuncionario" VALUES (4,1),
+INSERT INTO "LojaFuncionario" VALUES (5,2),
+INSERT INTO "LojaFuncionario" VALUES (6,1);
+INSERT INTO "Editor" VALUES (1,'buggysoft',20),
+INSERT INTO "Editor" VALUES (2,'activeblind',16),
+INSERT INTO "Editor" VALUES (3,'diskprojectblue',5),
+INSERT INTO "Editor" VALUES (4,'ea dlc',3),
+INSERT INTO "Editor" VALUES (5,'pineapple studio',14),
+INSERT INTO "Editor" VALUES (6,'the eightrpm',18),
+INSERT INTO "Editor" VALUES (7,'blitzcrank',12),
+INSERT INTO "Editor" VALUES (8,'red finger',21),
+INSERT INTO "Editor" VALUES (9,'garden studios',8),
+INSERT INTO "Editor" VALUES (10,'dog digital',16),
+INSERT INTO "Editor" VALUES (11,'roit',18),
+INSERT INTO "Editor" VALUES (12,'evlav',13);
+INSERT INTO "Horario" VALUES (1,'SEGUNDA-FEIRA',9,17),
+INSERT INTO "Horario" VALUES (2,'TERCA-FEIRA',9,17),
+INSERT INTO "Horario" VALUES (3,'QUARTA-FEIRA',9,17),
+INSERT INTO "Horario" VALUES (4,'QUINTA-FEIRA',9,17),
+INSERT INTO "Horario" VALUES (5,'SEXTA-FEIRA',9,17),
 INSERT INTO "Horario" VALUES (6,'SABADO',9,13);
-INSERT INTO "HorarioFuncionario" VALUES (1,4);
-INSERT INTO "HorarioFuncionario" VALUES (2,4);
-INSERT INTO "HorarioFuncionario" VALUES (3,4);
-INSERT INTO "HorarioFuncionario" VALUES (4,4);
-INSERT INTO "HorarioFuncionario" VALUES (5,4);
-INSERT INTO "HorarioFuncionario" VALUES (6,4);
-INSERT INTO "HorarioFuncionario" VALUES (1,5);
-INSERT INTO "HorarioFuncionario" VALUES (2,5);
-INSERT INTO "HorarioFuncionario" VALUES (3,5);
-INSERT INTO "HorarioFuncionario" VALUES (4,5);
-INSERT INTO "HorarioFuncionario" VALUES (5,5);
-INSERT INTO "HorarioFuncionario" VALUES (6,5);
-INSERT INTO "HorarioFuncionario" VALUES (1,6);
-INSERT INTO "HorarioFuncionario" VALUES (2,6);
-INSERT INTO "HorarioFuncionario" VALUES (3,6);
-INSERT INTO "HorarioFuncionario" VALUES (4,6);
-INSERT INTO "HorarioFuncionario" VALUES (5,6);
+INSERT INTO "HorarioFuncionario" VALUES (1,4),
+INSERT INTO "HorarioFuncionario" VALUES (2,4),
+INSERT INTO "HorarioFuncionario" VALUES (3,4),
+INSERT INTO "HorarioFuncionario" VALUES (4,4),
+INSERT INTO "HorarioFuncionario" VALUES (5,4),
+INSERT INTO "HorarioFuncionario" VALUES (6,4),
+INSERT INTO "HorarioFuncionario" VALUES (1,5),
+INSERT INTO "HorarioFuncionario" VALUES (2,5),
+INSERT INTO "HorarioFuncionario" VALUES (3,5),
+INSERT INTO "HorarioFuncionario" VALUES (4,5),
+INSERT INTO "HorarioFuncionario" VALUES (5,5),
+INSERT INTO "HorarioFuncionario" VALUES (6,5),
+INSERT INTO "HorarioFuncionario" VALUES (1,6),
+INSERT INTO "HorarioFuncionario" VALUES (2,6),
+INSERT INTO "HorarioFuncionario" VALUES (3,6),
+INSERT INTO "HorarioFuncionario" VALUES (4,6),
+INSERT INTO "HorarioFuncionario" VALUES (5,6),
 INSERT INTO "HorarioFuncionario" VALUES (6,NULL);
-INSERT INTO "HorarioLoja" VALUES (1,1);
-INSERT INTO "HorarioLoja" VALUES (1,2);
-INSERT INTO "HorarioLoja" VALUES (1,3);
-INSERT INTO "HorarioLoja" VALUES (1,4);
-INSERT INTO "HorarioLoja" VALUES (1,5);
-INSERT INTO "HorarioLoja" VALUES (1,6);
-INSERT INTO "HorarioLoja" VALUES (2,1);
-INSERT INTO "HorarioLoja" VALUES (2,2);
-INSERT INTO "HorarioLoja" VALUES (2,3);
-INSERT INTO "HorarioLoja" VALUES (2,4);
-INSERT INTO "HorarioLoja" VALUES (2,5);
+INSERT INTO "HorarioLoja" VALUES (1,1),
+INSERT INTO "HorarioLoja" VALUES (1,2),
+INSERT INTO "HorarioLoja" VALUES (1,3),
+INSERT INTO "HorarioLoja" VALUES (1,4),
+INSERT INTO "HorarioLoja" VALUES (1,5),
+INSERT INTO "HorarioLoja" VALUES (1,6),
+INSERT INTO "HorarioLoja" VALUES (2,1),
+INSERT INTO "HorarioLoja" VALUES (2,2),
+INSERT INTO "HorarioLoja" VALUES (2,3),
+INSERT INTO "HorarioLoja" VALUES (2,4),
+INSERT INTO "HorarioLoja" VALUES (2,5),
 INSERT INTO "HorarioLoja" VALUES (2,6);
-INSERT INTO "Compra" VALUES (1,'1000-01-05',50.0,1,1);
-INSERT INTO "Compra" VALUES (2,'1000-05-01',30.0,2,2);
-INSERT INTO "Compra" VALUES (3,'1001-09-19',40.0,3,1);
-INSERT INTO "Compra" VALUES (4,'1020-01-13',9.99,999999999,2);
-INSERT INTO "CompraJogo" VALUES (1,1);
-INSERT INTO "CompraJogo" VALUES (2,2);
-INSERT INTO "CompraJogo" VALUES (4,NULL);
+INSERT INTO "Compra" VALUES (1,'2021-01-10',49.99,1,1),
+INSERT INTO "Compra" VALUES (2,'2021-02-17',33.5,2,2),
+INSERT INTO "Compra" VALUES (3,'2021-02-28',39.99,3,1),
+INSERT INTO "Compra" VALUES (4,'2021-03-02',67.49,1,1),
+INSERT INTO "Compra" VALUES (5,'2021-03-04',29.0,999999999,2),
+INSERT INTO "Compra" VALUES (6,'2021-04-11',76.73,3,2),
+INSERT INTO "Compra" VALUES (7,'2021-05-05',45.49,7,2),
+INSERT INTO "Compra" VALUES (8,'2021-05-24',4.99,7,1),
+INSERT INTO "Compra" VALUES (9,'2021-05-26',61.64,2,1),
+INSERT INTO "Compra" VALUES (10,'2021-05-28',17.89,999999999,2),
+INSERT INTO "Compra" VALUES (11,'2021-06-11',44.49,1,1),
+INSERT INTO "Compra" VALUES (12,'2021-06-13',38.99,2,1),
+INSERT INTO "Compra" VALUES (13,'2021-07-01',23.5,5,2),
+INSERT INTO "Compra" VALUES (14,'2021-11-15',27.89,999999999,2),
+INSERT INTO "Compra" VALUES (15,'2017-10-30',9.99,999999999,1);
+INSERT INTO "CompraJogo" VALUES (1,1),
+INSERT INTO "CompraJogo" VALUES (2,2),
+INSERT INTO "CompraJogo" VALUES (15,6),
 INSERT INTO "CompraJogo" VALUES (3,1);
-INSERT INTO "Cliente" VALUES (1,'1000-01-01');
-INSERT INTO "Cliente" VALUES (2,'1000-01-02');
-INSERT INTO "Cliente" VALUES (3,'1000-01-03');
-INSERT INTO "Cliente" VALUES (999999999,'9999-99-99');
-INSERT INTO "Jogo" VALUES (1,'epic game','1001-01-02',59.99,'ACAO','portugues',5.0,'very epic',3);
-INSERT INTO "Jogo" VALUES (2,'not so epic game','1001-02-01',79.99,'ESTRATEGIA','ingles',2.2,'meh',4);
+INSERT INTO "Cliente" VALUES (1,'2020-12-25'),
+INSERT INTO "Cliente" VALUES (2,'2020-06-29'),
+INSERT INTO "Cliente" VALUES (3,'2020-11-24'),
+INSERT INTO "Cliente" VALUES (5,'2020-05-10'),
+INSERT INTO "Cliente" VALUES (7,'2020-09-27'),
+INSERT INTO "Cliente" VALUES (10,'2020-12-18'),
+INSERT INTO "Cliente" VALUES (999999999,NULL);
+INSERT INTO "Jogo" VALUES (1,'piko ancestors','2000-06-18',59.99,'ACAO','portugues',5.0,'very epic',3),
+INSERT INTO "Jogo" VALUES (2,'epic bros','2009-10-07',79.99,'ESTRATEGIA','ingles',2.2,'meh,  the graphics suck',7),
+INSERT INTO "Jogo" VALUES (3,'someone stole my!','2008-10-07',19.99,'INDIE','alemao',3.4,'i got hungry while playing this',5),
+INSERT INTO "Jogo" VALUES (4,'speed for need','2005-08-16',39.99,'CORIDAS','ingles',4.5,'great game',1),
+INSERT INTO "Jogo" VALUES (5,'liga das legendas','2001-09-03',15.99,'MULTIPLAYER','portugues',4.9,'my teammates are so toxic',11),
+INSERT INTO "Jogo" VALUES (6,'dolls 4.0','2018-10-06',99.99,'SIMULADOR','ingles',3.5,'this has so many dlcs',4),
+INSERT INTO "Jogo" VALUES (7,'literature by doki','2015-07-23',12.49,'TERROR','ingles',3.9,'those girls were cute',8),
+INSERT INTO "Jogo" VALUES (8,'walking alive','2009-03-21',24.99,'TERROR','russo',3.2,'mobsters are cool',10),
+INSERT INTO "Jogo" VALUES (9,'chester','2011-04-01',14.99,'SIMULADOR','ingles',4.1,'very intuitive',2),
+INSERT INTO "Jogo" VALUES (10,'let it burn','2016-08-19',26.99,'RPG','espanhol',3.6,'not that much flamie',6),
+INSERT INTO "Jogo" VALUES (11,'go cs','2018-07-11',13.99,'FPS','ingles',4.6,'i get mad everytime i play this',12),
+INSERT INTO "Jogo" VALUES (12,'my banana enemy','2019-06-19',16.79,'INDIE','portugues',2.5,'i have bananaphobia',9),
+INSERT INTO "Jogo" VALUES (13,'bitter nightmares','2014-11-25',26.67,'ESTRATEGIA','ingles',1.7,'i can fix her',6),
+INSERT INTO "Jogo" VALUES (14,'fake international football agency','2003-12-26',59.99,'ESPORT','ingles',0.5,'this game sucks,  my goalkeeper doesn''t grab any balls',4);
 COMMIT;
